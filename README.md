@@ -16,3 +16,16 @@ Approval at every major gate · Signature ambition · Hybrid specialist architec
 Start with instruction and creative tests from `benchmarks/benchmark-protocol.md`. Use the consumer-brand, Temis product-page and portfolio benchmarks. Do not build all three fully at once.
 
 This package improves process discipline; it cannot guarantee perfect output. Results depend on model, tools, brief, assets, implementation and real inspection.
+
+
+## v3.1 — Creative Intelligence & Art Direction Upgrade
+
+This release adds a mandatory divergent creative exploration protocol, cross-disciplinary art-direction method, anti-obviousness review and reproducible regression benchmark. Existing production gates, QA modules, adapters and handoff templates are preserved.
+
+New modules:
+- `core/creative-exploration.md`
+- `disciplines/cross-disciplinary-art-direction.md`
+- `quality/originality-gate.md`
+- `benchmarks/creative-exploration-regression.md`
+
+The upgrade does not guarantee award-winning work. It makes creative exploration more disciplined and makes recurring first-association failures testable.
