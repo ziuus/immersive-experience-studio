@@ -1,0 +1,3 @@
+# Claude Code Adapter
+
+Read root skill and gate-specific modules. Inspect repository, scripts, framework and conventions before editing. Use subagents only for bounded parallel research or independent critique; the orchestrator synthesizes results. Verify unfamiliar APIs against current documentation. Preserve existing work; avoid broad rewrites without approval. Build incrementally and run relevant tests/lint/typecheck/build. Use browser inspection if installed and authorized; otherwise mark visual QA unverified. Summarize changed files, evidence, defects and risks. Stop at every approval gate.
