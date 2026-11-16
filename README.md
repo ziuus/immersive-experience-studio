@@ -38,17 +38,7 @@ The skill enforces a three-stage gated workflow:
 
 ## Installation
 
-### For Hermes Agent
-
-```bash
-# Option 1: Clone directly into Hermes skills directory
-git clone https://github.com/zius/immersive-experience-studio.git ~/.hermes/skills/immersive-experience-studio
-
-# Option 2: If using PAI skills directory
-git clone https://github.com/zius/immersive-experience-studio.git ~/PAI/skills/immersive-experience-studio
-```
-
-### For Other Agents
+### For Any Agent Supporting Markdown Skills
 
 Copy the `immersive-experience-studio` directory to your agent's skills directory:
 
@@ -68,6 +58,21 @@ skills/
         ├── creative-direction.md
         ├── creative-engineering.md
         └── experience-architecture.md
+```
+
+**Common locations:**
+- Hermes: `~/.hermes/skills/`
+- Codex: `~/.codex/skills/`
+- OpenCode: `~/.opencode/skill/`
+- Claude Code: `~/.claude/skills/` or `~/.agents/skills/`
+- Custom: wherever your agent loads skills from
+
+### For Git Submodule (Recommended)
+
+```bash
+cd your-project
+git submodule add https://github.com/zius/immersive-experience-studio.git .skills/immersive-experience-studio
+# Then point your agent to .skills/immersive-experience-studio
 ```
 
 ## Usage
@@ -124,14 +129,10 @@ Before calling work complete, the skill verifies:
 
 ## Requirements
 
-- An agent that supports skill loading (Hermes, PAI, or compatible)
+- An agent that supports skill loading (markdown-based skills with reference/template/workflow structure)
 - For implementation: a web project repository (React, Vue, Next.js, Astro, etc.)
 - Browser/screenshot tools for rendered QA (recommended)
 
 ## License
 
 MIT — Free to use, modify, and distribute.
-
----
-
-*Created for the Hermes Agent ecosystem. Compatible with any agent that supports markdown-based skills with reference/template/workflow structure.*
